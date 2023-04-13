@@ -1,0 +1,28 @@
+PODS:
+  - FSCalendar (2.8.4)
+  - KeychainSwift (20.0.0)
+  - SwiftAudioPlayer (7.6.0)
+  - TTGTagCollectionView (2.3.0)
+
+DEPENDENCIES:
+  - FSCalendar
+  - KeychainSwift
+  - SwiftAudioPlayer
+  - TTGTagCollectionView
+
+SPEC REPOS:
+  trunk:
+    - FSCalendar
+    - KeychainSwift
+    - SwiftAudioPlayer
+    - TTGTagCollectionView
+
+SPEC CHECKSUMS:
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  SwiftAudioPlayer: a546709faf47f3ab0cb59e41ba4432e6bb61db0a
+  TTGTagCollectionView: 4104f93281097eae5adbf4444811e32f5e52dc95
+
+PODFILE CHECKSUM: a211c54a6d0a356c310c5e333fc7fb08cd37d38f
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,125 @@
+{
+  "identifier" : "4720C7FE",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "F7CE9E81",
+      "localizations" : [
+
+      ],
+      "name" : "Weekly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "B1B4235D",
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "0CF7C866",
+            "paymentMode" : "none",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.tiksave.weeklysubscription",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "WeeklySubscription",
+          "subscriptionGroupID" : "F7CE9E81",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "B26F7F7E",
+      "localizations" : [
+
+      ],
+      "name" : "Montly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "25.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "FB003E06",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.tiksave.monthlysubsciption",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "MontlySubscription",
+          "subscriptionGroupID" : "B26F7F7E",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "C7B98D87",
+      "localizations" : [
+
+      ],
+      "name" : "Yearly",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "39.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "C8C24ADE",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.tiksave.yearlysubscription",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "YearlySubscription",
+          "subscriptionGroupID" : "C7B98D87",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

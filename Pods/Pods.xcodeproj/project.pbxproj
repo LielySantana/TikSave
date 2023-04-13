@@ -1,0 +1,1507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003475471715C79534A569A1DE745889 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3EFCF97FA44A4DA77290003CD1128A /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0050207DE1AD9E807C300821AAF90F2F /* SwiftAudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B55F6B9D4757DF1B085F73AE7243022 /* SwiftAudioPlayer-dummy.m */; };
+		081832C26D5BA5B22489AF1D07094CD9 /* SAPlayerUpdateSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF492B82DE15B6F19C83DD9C7A3071 /* SAPlayerUpdateSubscription.swift */; };
+		0970AEF5F44524597BFE7319F3899841 /* AudioConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C51A2E1D6B77B6F7432099C0D1B3 /* AudioConverter.swift */; };
+		09E160396D776D11561A635C9937960F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		0BACCD30BE71D046440ADA1E8953F450 /* AudioStreamWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9CB603BA5A87097A55B864AF3B9A43 /* AudioStreamWorker.swift */; };
+		0C27045051E4170B9F156D049695A896 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFAAD59851BD8226690E4802BDF2C1 /* Date.swift */; };
+		0CBFBBC52B77AEDD220B219AFA55B4F6 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6335410B84488B2C95C49FCE10E45 /* KeychainSwift.swift */; };
+		0CCBB4361672C8994784F0CD9AFC876D /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 504BE9AC748AD2307D49486192894FAC /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE86E6F6A51BD4E6D4A7E903545E1E3 /* AudioQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7234C415EFBA492ED9EF1701A258E07 /* AudioQueue.swift */; };
+		10A2175FFC32FB68FF3E71BAADA765E5 /* TTGTextTagAttributedStringContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE6B21F9DF2131B6FC11E46D2910BA /* TTGTextTagAttributedStringContent.m */; };
+		1152D5AAA7732A77B80CF0E33A68351C /* FSCalendarSeparatorDecorationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE48F244558FEF0C3BA12746DE2AA8A /* FSCalendarSeparatorDecorationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146E9FA66D8A55CCD9E7A89DB40FADD6 /* TTGTagCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86671E62813B496C38CDB8CDA64DDA04 /* TTGTagCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198A9C6930D89FF5206D86E2D3AFABCC /* AudioStreamEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E965522E260C90B0C38B574C1C7B647 /* AudioStreamEngine.swift */; };
+		1B6EC59802D31BE0B70A3B2EDC7555AC /* AudioDownloadWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41916930D84A98E3417FEFC40324369 /* AudioDownloadWorker.swift */; };
+		1D72E03DF79E36E3B1D570ECBB9CEF11 /* AudioParserPacketListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADB38E9F70BBC934BA32D112089614 /* AudioParserPacketListener.swift */; };
+		1FC9E4050EB7749949E19A0678CA0A87 /* TTGTextTagStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBEFC1EFC186E6BB5C9F2F1E6AF27EA /* TTGTextTagStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF421C714EDBE044E5EEB1E0C6A8571 /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7000E67AFADF306BB152FEBC6D1B650A /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E5EE988A4BD7C15B55708C6D88AE04 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4369616B89227D34A92DD6194F7ED9 /* FSCalendarStickyHeader.m */; };
+		2C6B934D837785259E680FD93F5C5741 /* TTGTextTagStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F9B79F463BCE580E920A3A9A637949 /* TTGTextTagStyle.m */; };
+		2C9CDDE18FCA46F9351451521995D65A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C8C9F0F6CE0125FB9142692901832 /* Data.swift */; };
+		37EC024F54023B0D698A37C47122C953 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B69EA20536AE57B5A8866183E78345D /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3960120DF8907DA574823ACE7ED96076 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DDE84BCC8C831927D5BA7440FBA08 /* FSCalendarWeekdayView.m */; };
+		39AF39DD3144702AF34A3FE2B7B5D6E0 /* TTGTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 805FF2E0DBB45B1460D588F1D864D223 /* TTGTagCollectionView.m */; };
+		39F986157716D5214013E395BDFA237A /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3A6B0CEDE90E5511B4526C1062A090 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4312279116CB39740057FB7B12AF4B /* AudioThrottler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285EF3E00A4B86B7DBD944422B5E0272 /* AudioThrottler.swift */; };
+		3E4E56584545A9F057D6A39565EEBE81 /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3591F42C4C15383D51F1143454257 /* FSCalendar-dummy.m */; };
+		408FCE218B25F440E10D4A7EB4A3EDE2 /* TTGTagCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0CB1C035B42D645E5282418599FFFA /* TTGTagCollectionView-dummy.m */; };
+		44D7B86E15D251E8C60B0ECFC83D7305 /* StreamingDownloadDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57024D3279B02D2C68A3F76DAD75A8 /* StreamingDownloadDirector.swift */; };
+		4504586409FFAF9C636C80A571FF7B9F /* SAPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726EC4FCC68C406201F127F19F1742F /* SAPlayerDownloader.swift */; };
+		4643DA364A3E80706B89D53043890B4D /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 397E793196468B499D72B4DFA2CFC211 /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4683418880504CD2212FE56C4F1E8F80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		4AC654FE7310099512B0BC69400041D9 /* TTGTextTagStringContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 822AAC3E3711A17D78785C483E678300 /* TTGTextTagStringContent.m */; };
+		4EC9E26EE87569C1B51B6DFF20700772 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A68F90778B4B7C6602DB5410F8F1DAA /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		503140F95A90B833EB88EE59E1CF51B8 /* TTGTextTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = B51EA94B39DC2872C5CFAFBC08B04B44 /* TTGTextTagCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517DF7507FDB12DBF9BA9D1536EDCC4F /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBEC3BEE91BC4A28C7176A3B10583E39 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D59E373510F1E69721BBEEE6D2B956 /* SAPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A95A274864478DE8B5A8A748C323D21 /* SAPlayer.swift */; };
+		571280A1BCEBAF880C229B684D65312E /* AudioQueueDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137036B110882F7DFD7CFEA891C01FBF /* AudioQueueDirector.swift */; };
+		57E5E46E0769D3B27E347FA9608022C0 /* SAPlayerFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C2C2C426F604544F8BBFE85D84B13D /* SAPlayerFeatures.swift */; };
+		5B6944E076027C33A08ED451345457DE /* TTGTextTagStringContent.h in Headers */ = {isa = PBXBuildFile; fileRef = F1484B7CA0D45480496264B9AE414AAB /* TTGTextTagStringContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E16A536FA91AC6319D2F23E98178220 /* DirectorThreadSafeClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4422E3C39967CBC74E54DAE803F8C5C9 /* DirectorThreadSafeClosures.swift */; };
+		5F847123FA3D224722CE24317DCEF968 /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F864E96169BF78758C4523B7DE88542D /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6040741383F6F8F6979D6C547230C132 /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D262862CF35DA6C38170FF7154A201E2 /* FSCalendarSeparatorDecorationView.m */; };
+		60CFDC4002EA677B53ECC413F67C149D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		6201BB85A0AAF8FA6C4771308917BAB2 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DA4C4F846F7137DD746C5B44FB113D /* FSCalendarTransitionCoordinator.m */; };
+		62A909D8DCA0C7CDF80F209E70AF646F /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76C730E83AB237319747E343509F55 /* URL.swift */; };
+		62FFC4B2AA010A5445E5D9D6294C62B6 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = CD06AA9A592C7F562288F111DF60BAED /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C3A0A52B40B8E9D3BFCD964EDE508D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7060F5FF7CBE92625142B3718149869C /* Log.swift */; };
+		65D06025EE2F0A07B71F3B312CC0B944 /* AudioDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E0BCF21A3AEDFF92D3FB5CBD6DC1BD /* AudioDataManager.swift */; };
+		6C133193471A0A93B4CE45491148072A /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB3A4980E35E2662AE458E7FFA7E1C /* TegKeychainConstants.swift */; };
+		6D3F76F7CB02C941CB4841D852C05DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		6DCF6F2A00DA4D32535EB01AE34F3563 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE3F80DF76E78D98211B2EBFD01B728 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74340052A3CD15A02A87D8D651CB8AB8 /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = B992DAD32E2749BE52806009E5573C24 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752DBFCDD74504EEA558FCD691F6D548 /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AD7D72EB322C464671FE7B70E73E2D /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E6F5C355E3A24A61494C6B6652C4C9E /* TTGTagCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 239559E75A7D26EBE8C7CCFE10AEA1B2 /* TTGTagCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E98902CA894CFE1F54E7934B24B0B37 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8655988433E64EDE6208A99805A51BB /* FSCalendarCollectionView.m */; };
+		7EA2854B68A7616A73A3AAAAC0390B35 /* SAPlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E48071D64BAC1D80230093930EF77 /* SAPlayerPresenter.swift */; };
+		7EBAD84DB74B626670BC0D413D5654DA /* StreamProgressPTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D7C7D1B36A409D95C218D98999CCB /* StreamProgressPTO.swift */; };
+		7FDEAD728DF7397DAEE4237F07AD5A70 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E538B4B9B6E1287B2CDE5D174776756D /* FSCalendarHeaderView.m */; };
+		81B0E4B5CA68235A37D86398E2BCEC5A /* DirectorThreadSafeClosuresDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE245178285C16A29DC718FD900D458E /* DirectorThreadSafeClosuresDeprecated.swift */; };
+		83F4A638D27A828C4B802778EC4BE98A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A9826C06134911508B90A364F7E5E /* Constants.swift */; };
+		8CB779F93023DDE9B418AEA62541D3FA /* TTGTextTagContent.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD5F6B1278497F7728A3A6E0DE8ADE4 /* TTGTextTagContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D5833379E9F51BFEEA066AA1C4A25A0 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9DBEB866AABD53E5303A869CDEC673 /* FSCalendarConstants.m */; };
+		98ED989444E9F6E4AE75A5C62211456A /* AudioParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1855B2240C60D475838081D1BD8F845 /* AudioParserErrors.swift */; };
+		A046CD512717525C845E4EFF78F75E8F /* SAPlayingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D4E6527BF822CC3983AFA66B0DDCDF /* SAPlayingStatus.swift */; };
+		A550F7F30921E5FFE67A755D67DA7683 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = DF68CF5B81FBA33F0366CDEBDD109D86 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9493963E319CD5751CE91E57F507589 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297360EF38C4992E6EE45D241AC6EE6D /* FileStorage.swift */; };
+		AC360861C34C20A0E530DD64D71C1A6C /* StreamProgressDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB514A663C61326B42CADCC8770B04F9 /* StreamProgressDTO.swift */; };
+		ADE42A4126B82494B773E1EF309781A8 /* TTGTextTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C6CDF2B841301CF914FE17AB6396E5 /* TTGTextTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE4587BFFFD57C836559E7BBAF52C24B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		AF353D74401306464BF92055A2C3442C /* AudioConverterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F7DBF93AC7B46F8B488CCBEBE0533 /* AudioConverterErrors.swift */; };
+		B29F6543BF0300555DF4E0D85E37CF8E /* Pods-TikSave-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 965A9073BC320363A0A90A0A11376034 /* Pods-TikSave-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39BF720A3E471DC10CDC6CC3986D2A9 /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 122F3022F6BFFB6868CFC7F19C11F24E /* KeychainSwift-dummy.m */; };
+		B4DD2EDAED8F75345383006E53F0CBE2 /* SAPlayerHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96A125403E93E6E2DC7D874C1DACF06 /* SAPlayerHelpers.swift */; };
+		B76BDCEB38EB565ADCE662AEB0BD352D /* AudioDiskEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1788FBCCA712EBEEC575677C9FE10DF5 /* AudioDiskEngine.swift */; };
+		BB7688BEC17FF0772F12E0C211FE9293 /* TTGTextTagAttributedStringContent.h in Headers */ = {isa = PBXBuildFile; fileRef = D5976767BA0C5A5C40F6A064B313EB68 /* TTGTextTagAttributedStringContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B2FA367074EAF985420BE965303D3 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D410C69BCDD4618303865894A487BF9 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC1A04CE0A9851F3C003ECD156BE95AC /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A03F87F4DFD67AD5EB565DFAE8AEAA /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C018775B8C99FE0D182C864F61C6DFEE /* AudioConverterListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F32ECC5F799521FA88CA45A5B16449E /* AudioConverterListener.swift */; };
+		C17CF6C18DAC9307799F1D7972965EDF /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DAF3B313E630F34E45CBA252FFC19C /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C476AE489AC032C4E6BCE082C1FC12DB /* AudioParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0BC6202396890D9C210D0F74EA5683 /* AudioParser.swift */; };
+		C543B2A5CF83423F50EF2DFA3A7F1141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		C6ED706364847164CB566CEA1A6FFDD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		C7ACD835AAE2936FB6B623084612825D /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3074BD9D4D491250405FE5F191ADEC /* FSCalendarExtensions.m */; };
+		C998FCBDD3585504440701A3A99A6D27 /* SAPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B340B68022BB89867B85F484C9F67E /* SAPlayerDelegate.swift */; };
+		CC7105F41ED9698A54F6302038BF7B71 /* TTGTextTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F3DA9DB73423DA64E612F97F393EC /* TTGTextTag.m */; };
+		CE132491B81D44BB6B692C3F72FBC980 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC70F5A1DD26DECFD676A25BD04BD2AE /* FSCalendarCollectionViewLayout.m */; };
+		CF10A50704D5CF6F07D5949BA4AB3EAB /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DC569003A3B8DFC99AB759245D063480 /* FSCalendarDelegationFactory.m */; };
+		DBC27A3BA5551A00C3BB06E0CC9AF642 /* TTGTextTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B226BE58F400E91FB7C66006D10BEE4 /* TTGTextTagCollectionView.m */; };
+		DC0C12012E9D26046DA7E853863490C9 /* SAAudioAvailabilityRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F00744B56F9896FF0A8BC2E8273FEE /* SAAudioAvailabilityRange.swift */; };
+		E11220C77D9BB217D63867401FF624F6 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D0A1DD9EF750684371F1D3B4F3D58B /* FSCalendarCell.m */; };
+		E3E65393417F64ED73B1292878190FB9 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36B409F3F3040A6676C86C6604BDFD1 /* AudioEngine.swift */; };
+		E53DD07DFCDD2241779DBAAE71E77032 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD2EC122E9D5F8490F227604970F68 /* FSCalendarDelegationProxy.m */; };
+		E8C1ABBC5891DB3A42B97C64BC18A9D5 /* AudioParserPropertyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1C4B40AAAD2552C17D9DEA29A8C4E /* AudioParserPropertyListener.swift */; };
+		EB51A41587E6BD487011DB89B1EEE877 /* TTGTagCollectionView-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7E677FDF363D0A210C9E1D1A907329 /* TTGTagCollectionView-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB69E4E47F4A81792C62A82D9AD64A5D /* LockScreenViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0585E67E30F1F5DDC5B8D5AB88659E /* LockScreenViewProtocol.swift */; };
+		EBBDD6E6A128CD769399E1F128934020 /* TTGTextTagContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 886F08B633F01FDA81B53C1B60BF9095 /* TTGTextTagContent.m */; };
+		F1B9720240D5609A1DE32B8350FE0B5B /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E8018D8E90AAF7E014B5612A98925930 /* FSCalendarCalculator.m */; };
+		F1C2A6A45F0423B4B5A8733FBB9093F1 /* SwiftAudioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3055943E12374FA22EC2DB5782F295D8 /* SwiftAudioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F18A1FEC8212A61301637E40558A13 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE9D739C9A60525D654093459AFC70 /* FSCalendarAppearance.m */; };
+		F59134582A0828C0A9E5CA82C9A67986 /* DownloadProgressDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAF313099983BF3B592A2ECB92BD7A /* DownloadProgressDirector.swift */; };
+		F7C20C67D0D5A1C73A0A057268A719C1 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFCC3341DC3F8E14958367D8C827948 /* FSCalendar.m */; };
+		F7C2667C42DACD40996B939C843C17ED /* AudioParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C40E900A5CBF14379BAA613B2C8E /* AudioParsable.swift */; };
+		FAA9422DBF165F89AA81D94DB2DBF457 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0658801C83D8AE125ED36D438D2FCBD /* KeychainSwiftAccessOptions.swift */; };
+		FB08298B314FA7D99E5E9C78597B2ECC /* AudioClockDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595931AEF08ABFD34A9273F885F89D4B /* AudioClockDirector.swift */; };
+		FBDC4895672B4E8AC3747C591051208A /* Pods-TikSave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D52AC87EC67058D72577491FF48750 /* Pods-TikSave-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14098029ED43C4C4D8237FC65B571529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFDAF801D749F87A32FC2773FFE7390;
+			remoteInfo = SwiftAudioPlayer;
+		};
+		43B0956AC331D1AB1686E41AFBE93328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13285D54682BEAD805960F9E6EEB9949;
+			remoteInfo = FSCalendar;
+		};
+		4B5D2289ED0DAF51CECC664E685E10CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		D0E150274CFB978119FF75EBEE3559F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4949B35B65C78C4D7DCBEEA66EC61D4;
+			remoteInfo = TTGTagCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D52AC87EC67058D72577491FF48750 /* Pods-TikSave-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TikSave-dummy.m"; sourceTree = "<group>"; };
+		0726EC4FCC68C406201F127F19F1742F /* SAPlayerDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerDownloader.swift; path = Source/SAPlayerDownloader.swift; sourceTree = "<group>"; };
+		122F3022F6BFFB6868CFC7F19C11F24E /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		137036B110882F7DFD7CFEA891C01FBF /* AudioQueueDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioQueueDirector.swift; path = Source/Directors/AudioQueueDirector.swift; sourceTree = "<group>"; };
+		154E48071D64BAC1D80230093930EF77 /* SAPlayerPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerPresenter.swift; path = Source/SAPlayerPresenter.swift; sourceTree = "<group>"; };
+		1788FBCCA712EBEEC575677C9FE10DF5 /* AudioDiskEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioDiskEngine.swift; path = Source/Engine/AudioDiskEngine.swift; sourceTree = "<group>"; };
+		18E7C51A2E1D6B77B6F7432099C0D1B3 /* AudioConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioConverter.swift; path = Source/Engine/Converter/AudioConverter.swift; sourceTree = "<group>"; };
+		1D410C69BCDD4618303865894A487BF9 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		1E76C730E83AB237319747E343509F55 /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URL.swift; path = Source/Util/URL.swift; sourceTree = "<group>"; };
+		239559E75A7D26EBE8C7CCFE10AEA1B2 /* TTGTagCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTagCollectionView.h; path = Sources/TTGTagCollectionView.h; sourceTree = "<group>"; };
+		252015D64186E3640EC052F4A922A149 /* TTGTagCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTGTagCollectionView.release.xcconfig; sourceTree = "<group>"; };
+		285EF3E00A4B86B7DBD944422B5E0272 /* AudioThrottler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioThrottler.swift; path = Source/Engine/AudioThrottler.swift; sourceTree = "<group>"; };
+		28CC35FB227165A5E44F927A331EFF19 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		297360EF38C4992E6EE45D241AC6EE6D /* FileStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileStorage.swift; path = Source/Model/Downloading/FileStorage.swift; sourceTree = "<group>"; };
+		2A95A274864478DE8B5A8A748C323D21 /* SAPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayer.swift; path = Source/SAPlayer.swift; sourceTree = "<group>"; };
+		2BE48F244558FEF0C3BA12746DE2AA8A /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarSeparatorDecorationView.h; path = FSCalendar/FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		2E9CB603BA5A87097A55B864AF3B9A43 /* AudioStreamWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioStreamWorker.swift; path = Source/Model/Streaming/AudioStreamWorker.swift; sourceTree = "<group>"; };
+		2F32ECC5F799521FA88CA45A5B16449E /* AudioConverterListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioConverterListener.swift; path = Source/Engine/Converter/AudioConverterListener.swift; sourceTree = "<group>"; };
+		3055943E12374FA22EC2DB5782F295D8 /* SwiftAudioPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAudioPlayer-umbrella.h"; sourceTree = "<group>"; };
+		36B6335410B84488B2C95C49FCE10E45 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+		36C3B69C1605C5A55AA7ABE7C3C0E2C4 /* SwiftAudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAudioPlayer.release.xcconfig; sourceTree = "<group>"; };
+		36C6F0DD9B00CD62109C2D53724C22F7 /* TTGTagCollectionView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTGTagCollectionView; path = TTGTags.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FFAAD59851BD8226690E4802BDF2C1 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Source/Util/Date.swift; sourceTree = "<group>"; };
+		39516BC60512F2444094296261320D6B /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		397E793196468B499D72B4DFA2CFC211 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		39E0BCF21A3AEDFF92D3FB5CBD6DC1BD /* AudioDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioDataManager.swift; path = Source/Model/AudioDataManager.swift; sourceTree = "<group>"; };
+		3B55F6B9D4757DF1B085F73AE7243022 /* SwiftAudioPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAudioPlayer-dummy.m"; sourceTree = "<group>"; };
+		3D57024D3279B02D2C68A3F76DAD75A8 /* StreamingDownloadDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamingDownloadDirector.swift; path = Source/Directors/StreamingDownloadDirector.swift; sourceTree = "<group>"; };
+		3E1183ECC4E6EFAE42020073E3CF252D /* SwiftAudioPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAudioPlayer-prefix.pch"; sourceTree = "<group>"; };
+		3E965522E260C90B0C38B574C1C7B647 /* AudioStreamEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioStreamEngine.swift; path = Source/Engine/AudioStreamEngine.swift; sourceTree = "<group>"; };
+		42F00744B56F9896FF0A8BC2E8273FEE /* SAAudioAvailabilityRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAAudioAvailabilityRange.swift; path = Source/Engine/SAAudioAvailabilityRange.swift; sourceTree = "<group>"; };
+		43E8C40E900A5CBF14379BAA613B2C8E /* AudioParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParsable.swift; path = Source/Engine/Parser/AudioParsable.swift; sourceTree = "<group>"; };
+		4422E3C39967CBC74E54DAE803F8C5C9 /* DirectorThreadSafeClosures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectorThreadSafeClosures.swift; path = Source/Util/DirectorThreadSafeClosures.swift; sourceTree = "<group>"; };
+		4A68F90778B4B7C6602DB5410F8F1DAA /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B69EA20536AE57B5A8866183E78345D /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		4BC4DCDD1BE1BE0A129F5ED3910034BE /* TTGTagCollectionView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TTGTagCollectionView-Info.plist"; sourceTree = "<group>"; };
+		504BE9AC748AD2307D49486192894FAC /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		50D4E6527BF822CC3983AFA66B0DDCDF /* SAPlayingStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayingStatus.swift; path = Source/Engine/SAPlayingStatus.swift; sourceTree = "<group>"; };
+		542D7D4AE07015BBF75062C58BFB82E3 /* TTGTagCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTGTagCollectionView.modulemap; sourceTree = "<group>"; };
+		5955094F5C9AD3C7466B68F86F9B05B4 /* Pods-TikSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TikSave.debug.xcconfig"; sourceTree = "<group>"; };
+		595931AEF08ABFD34A9273F885F89D4B /* AudioClockDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioClockDirector.swift; path = Source/Directors/AudioClockDirector.swift; sourceTree = "<group>"; };
+		5CD1488798B4100855FC3D037F1BBE47 /* TTGTagCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTGTagCollectionView.debug.xcconfig; sourceTree = "<group>"; };
+		60B340B68022BB89867B85F484C9F67E /* SAPlayerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerDelegate.swift; path = Source/SAPlayerDelegate.swift; sourceTree = "<group>"; };
+		622F3ED001DA0F1CE87C5EACC715DB22 /* Pods-TikSave-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TikSave-Info.plist"; sourceTree = "<group>"; };
+		642B4B3304E7424EE4138E4ECF18FD2A /* TTGTagCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGTagCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		66ADB38E9F70BBC934BA32D112089614 /* AudioParserPacketListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParserPacketListener.swift; path = Source/Engine/Parser/AudioParserPacketListener.swift; sourceTree = "<group>"; };
+		66C2C2C426F604544F8BBFE85D84B13D /* SAPlayerFeatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerFeatures.swift; path = Source/SAPlayerFeatures.swift; sourceTree = "<group>"; };
+		684C8C9F0F6CE0125FB9142692901832 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Source/Util/Data.swift; sourceTree = "<group>"; };
+		6956C165935B6C4170E6C84FC59DA48C /* SwiftAudioPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAudioPlayer.modulemap; sourceTree = "<group>"; };
+		6B226BE58F400E91FB7C66006D10BEE4 /* TTGTextTagCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTextTagCollectionView.m; path = Sources/TTGTextTagCollectionView.m; sourceTree = "<group>"; };
+		6D3EFCF97FA44A4DA77290003CD1128A /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		6F51CFADD8308443769D83DBB22D7B3B /* KeychainSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.debug.xcconfig; sourceTree = "<group>"; };
+		6FEE9D739C9A60525D654093459AFC70 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		7000E67AFADF306BB152FEBC6D1B650A /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		7060F5FF7CBE92625142B3718149869C /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Source/Util/Log.swift; sourceTree = "<group>"; };
+		72CAF313099983BF3B592A2ECB92BD7A /* DownloadProgressDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadProgressDirector.swift; path = Source/Directors/DownloadProgressDirector.swift; sourceTree = "<group>"; };
+		75C6CDF2B841301CF914FE17AB6396E5 /* TTGTextTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTextTag.h; path = Sources/TTGTextTag.h; sourceTree = "<group>"; };
+		7671E3F1E477A9ED436DF144EB813F25 /* FSCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		7BA3591F42C4C15383D51F1143454257 /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		805FF2E0DBB45B1460D588F1D864D223 /* TTGTagCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTagCollectionView.m; path = Sources/TTGTagCollectionView.m; sourceTree = "<group>"; };
+		822AAC3E3711A17D78785C483E678300 /* TTGTextTagStringContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTextTagStringContent.m; path = Sources/TTGTextTagStringContent.m; sourceTree = "<group>"; };
+		84FB1AE74EA7E291F55B56413960B2C9 /* Pods-TikSave.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TikSave.modulemap"; sourceTree = "<group>"; };
+		8519BE8D3F8F1559AF1E643DF17FAAFD /* SwiftAudioPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftAudioPlayer-Info.plist"; sourceTree = "<group>"; };
+		85E52D10230314856B83C10ECAD5FCEF /* Pods-TikSave-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TikSave-frameworks.sh"; sourceTree = "<group>"; };
+		86671E62813B496C38CDB8CDA64DDA04 /* TTGTagCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGTagCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		886F08B633F01FDA81B53C1B60BF9095 /* TTGTextTagContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTextTagContent.m; path = Sources/TTGTextTagContent.m; sourceTree = "<group>"; };
+		8A7E677FDF363D0A210C9E1D1A907329 /* TTGTagCollectionView-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TTGTagCollectionView-Bridging-Header.h"; path = "Sources/TTGTagCollectionView-Bridging-Header.h"; sourceTree = "<group>"; };
+		8AAD2EC122E9D5F8490F227604970F68 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		8C3DDE84BCC8C831927D5BA7440FBA08 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DE3F80DF76E78D98211B2EBFD01B728 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		917A9826C06134911508B90A364F7E5E /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Util/Constants.swift; sourceTree = "<group>"; };
+		93C1C4B40AAAD2552C17D9DEA29A8C4E /* AudioParserPropertyListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParserPropertyListener.swift; path = Source/Engine/Parser/AudioParserPropertyListener.swift; sourceTree = "<group>"; };
+		95209B8BB966524BC76543F99C75F5FE /* FSCalendar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960180A82A4EABA5C23C0D11BC331F22 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
+		965A9073BC320363A0A90A0A11376034 /* Pods-TikSave-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TikSave-umbrella.h"; sourceTree = "<group>"; };
+		96F9B79F463BCE580E920A3A9A637949 /* TTGTextTagStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTextTagStyle.m; path = Sources/TTGTextTagStyle.m; sourceTree = "<group>"; };
+		9A022B248340808B077E22DD04ACD970 /* SwiftAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAudioPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		9A0585E67E30F1F5DDC5B8D5AB88659E /* LockScreenViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockScreenViewProtocol.swift; path = Source/LockScreenViewProtocol.swift; sourceTree = "<group>"; };
+		9B3A6B0CEDE90E5511B4526C1062A090 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4369616B89227D34A92DD6194F7ED9 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A0658801C83D8AE125ED36D438D2FCBD /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		A1C2317D265082A8A0BC2359B6DA6616 /* KeychainSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.release.xcconfig; sourceTree = "<group>"; };
+		A4B5191C9CCA342EE64022FFAF82A432 /* Pods-TikSave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TikSave.release.xcconfig"; sourceTree = "<group>"; };
+		A8655988433E64EDE6208A99805A51BB /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		AC0CB1C035B42D645E5282418599FFFA /* TTGTagCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTGTagCollectionView-dummy.m"; sourceTree = "<group>"; };
+		AFBF492B82DE15B6F19C83DD9C7A3071 /* SAPlayerUpdateSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerUpdateSubscription.swift; path = Source/SAPlayerUpdateSubscription.swift; sourceTree = "<group>"; };
+		B1CE6B21F9DF2131B6FC11E46D2910BA /* TTGTextTagAttributedStringContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTextTagAttributedStringContent.m; path = Sources/TTGTextTagAttributedStringContent.m; sourceTree = "<group>"; };
+		B46F3DA9DB73423DA64E612F97F393EC /* TTGTextTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTGTextTag.m; path = Sources/TTGTextTag.m; sourceTree = "<group>"; };
+		B4C6E1AC14AB47487175A050BFB8195A /* FSCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSCalendar-Info.plist"; sourceTree = "<group>"; };
+		B51EA94B39DC2872C5CFAFBC08B04B44 /* TTGTextTagCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTextTagCollectionView.h; path = Sources/TTGTextTagCollectionView.h; sourceTree = "<group>"; };
+		B7234C415EFBA492ED9EF1701A258E07 /* AudioQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioQueue.swift; path = Source/Model/AudioQueue.swift; sourceTree = "<group>"; };
+		B992DAD32E2749BE52806009E5573C24 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		BBEC3BEE91BC4A28C7176A3B10583E39 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		BE245178285C16A29DC718FD900D458E /* DirectorThreadSafeClosuresDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectorThreadSafeClosuresDeprecated.swift; path = Source/Util/DirectorThreadSafeClosuresDeprecated.swift; sourceTree = "<group>"; };
+		C1855B2240C60D475838081D1BD8F845 /* AudioParserErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParserErrors.swift; path = Source/Engine/Parser/AudioParserErrors.swift; sourceTree = "<group>"; };
+		C2DA4C4F846F7137DD746C5B44FB113D /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		C590B8AAC2A6D1D85A8B532D6E355DE7 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		C5AD7D72EB322C464671FE7B70E73E2D /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		C6A03F87F4DFD67AD5EB565DFAE8AEAA /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		C96A125403E93E6E2DC7D874C1DACF06 /* SAPlayerHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPlayerHelpers.swift; path = Source/SAPlayerHelpers.swift; sourceTree = "<group>"; };
+		CC70F5A1DD26DECFD676A25BD04BD2AE /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		CD06AA9A592C7F562288F111DF60BAED /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		CEFCC3341DC3F8E14958367D8C827948 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		CF0D7C7D1B36A409D95C218D98999CCB /* StreamProgressPTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamProgressPTO.swift; path = Source/Model/StreamProgressPTO.swift; sourceTree = "<group>"; };
+		D262862CF35DA6C38170FF7154A201E2 /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarSeparatorDecorationView.m; path = FSCalendar/FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		D2CB3A4980E35E2662AE458E7FFA7E1C /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		D5976767BA0C5A5C40F6A064B313EB68 /* TTGTextTagAttributedStringContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTextTagAttributedStringContent.h; path = Sources/TTGTextTagAttributedStringContent.h; sourceTree = "<group>"; };
+		D8DAF3B313E630F34E45CBA252FFC19C /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		DC3074BD9D4D491250405FE5F191ADEC /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		DC569003A3B8DFC99AB759245D063480 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		DF68CF5B81FBA33F0366CDEBDD109D86 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		DF9DBEB866AABD53E5303A869CDEC673 /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		DFBEFC1EFC186E6BB5C9F2F1E6AF27EA /* TTGTextTagStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTextTagStyle.h; path = Sources/TTGTextTagStyle.h; sourceTree = "<group>"; };
+		E1F0C4F7A8164EAA0AA2FAAFB3EE7D39 /* SwiftAudioPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAudioPlayer; path = SwiftAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36B409F3F3040A6676C86C6604BDFD1 /* AudioEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioEngine.swift; path = Source/Engine/AudioEngine.swift; sourceTree = "<group>"; };
+		E538B4B9B6E1287B2CDE5D174776756D /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		E572A48DB6EA3B38A2CB2DA16C10F5E1 /* FSCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.release.xcconfig; sourceTree = "<group>"; };
+		E8018D8E90AAF7E014B5612A98925930 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		EB514A663C61326B42CADCC8770B04F9 /* StreamProgressDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamProgressDTO.swift; path = Source/Model/Streaming/StreamProgressDTO.swift; sourceTree = "<group>"; };
+		F0B1F940976B546A9CDCF9F37896A45A /* Pods-TikSave-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TikSave-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1484B7CA0D45480496264B9AE414AAB /* TTGTextTagStringContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTextTagStringContent.h; path = Sources/TTGTextTagStringContent.h; sourceTree = "<group>"; };
+		F22F7DBF93AC7B46F8B488CCBEBE0533 /* AudioConverterErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioConverterErrors.swift; path = Source/Engine/Converter/AudioConverterErrors.swift; sourceTree = "<group>"; };
+		F41916930D84A98E3417FEFC40324369 /* AudioDownloadWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioDownloadWorker.swift; path = Source/Model/Downloading/AudioDownloadWorker.swift; sourceTree = "<group>"; };
+		F43CC0090DCB0DA66C9F34EFDB45435E /* Pods-TikSave-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TikSave-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5D0A1DD9EF750684371F1D3B4F3D58B /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		F864E96169BF78758C4523B7DE88542D /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		FBD5F6B1278497F7728A3A6E0DE8ADE4 /* TTGTextTagContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGTextTagContent.h; path = Sources/TTGTextTagContent.h; sourceTree = "<group>"; };
+		FCEEA4B5AFED8A189A138078A9CDC667 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		FD0BC6202396890D9C210D0F74EA5683 /* AudioParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioParser.swift; path = Source/Engine/Parser/AudioParser.swift; sourceTree = "<group>"; };
+		FE9D2A56C3C36C319634EB5A38D192CF /* Pods-TikSave */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TikSave"; path = Pods_TikSave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF9EFD42B13196AB8F9F7AE1E627F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3F76F7CB02C941CB4841D852C05DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8243A64755C7A548C64DC56F66C1347B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CFDC4002EA677B53ECC413F67C149D /* Foundation.framework in Frameworks */,
+				C6ED706364847164CB566CEA1A6FFDD6 /* QuartzCore.framework in Frameworks */,
+				4683418880504CD2212FE56C4F1E8F80 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5E1096151C1DC75B67489352719863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C543B2A5CF83423F50EF2DFA3A7F1141 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EB24AFD8D14A951275B258AD5CD983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E160396D776D11561A635C9937960F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EB5E493DDF947D3AB9F290A7BAF23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4587BFFFD57C836559E7BBAF52C24B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D911904F72BDB331F1232BC1F546244 /* TTGTagCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				239559E75A7D26EBE8C7CCFE10AEA1B2 /* TTGTagCollectionView.h */,
+				805FF2E0DBB45B1460D588F1D864D223 /* TTGTagCollectionView.m */,
+				8A7E677FDF363D0A210C9E1D1A907329 /* TTGTagCollectionView-Bridging-Header.h */,
+				75C6CDF2B841301CF914FE17AB6396E5 /* TTGTextTag.h */,
+				B46F3DA9DB73423DA64E612F97F393EC /* TTGTextTag.m */,
+				D5976767BA0C5A5C40F6A064B313EB68 /* TTGTextTagAttributedStringContent.h */,
+				B1CE6B21F9DF2131B6FC11E46D2910BA /* TTGTextTagAttributedStringContent.m */,
+				B51EA94B39DC2872C5CFAFBC08B04B44 /* TTGTextTagCollectionView.h */,
+				6B226BE58F400E91FB7C66006D10BEE4 /* TTGTextTagCollectionView.m */,
+				FBD5F6B1278497F7728A3A6E0DE8ADE4 /* TTGTextTagContent.h */,
+				886F08B633F01FDA81B53C1B60BF9095 /* TTGTextTagContent.m */,
+				F1484B7CA0D45480496264B9AE414AAB /* TTGTextTagStringContent.h */,
+				822AAC3E3711A17D78785C483E678300 /* TTGTextTagStringContent.m */,
+				DFBEFC1EFC186E6BB5C9F2F1E6AF27EA /* TTGTextTagStyle.h */,
+				96F9B79F463BCE580E920A3A9A637949 /* TTGTextTagStyle.m */,
+				406B63C9035A0534E445AE5F78BEC3F4 /* Support Files */,
+			);
+			name = TTGTagCollectionView;
+			path = TTGTagCollectionView;
+			sourceTree = "<group>";
+		};
+		406B63C9035A0534E445AE5F78BEC3F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				542D7D4AE07015BBF75062C58BFB82E3 /* TTGTagCollectionView.modulemap */,
+				AC0CB1C035B42D645E5282418599FFFA /* TTGTagCollectionView-dummy.m */,
+				4BC4DCDD1BE1BE0A129F5ED3910034BE /* TTGTagCollectionView-Info.plist */,
+				642B4B3304E7424EE4138E4ECF18FD2A /* TTGTagCollectionView-prefix.pch */,
+				86671E62813B496C38CDB8CDA64DDA04 /* TTGTagCollectionView-umbrella.h */,
+				5CD1488798B4100855FC3D037F1BBE47 /* TTGTagCollectionView.debug.xcconfig */,
+				252015D64186E3640EC052F4A922A149 /* TTGTagCollectionView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTGTagCollectionView";
+			sourceTree = "<group>";
+		};
+		40F104BECAC9A5F711C5B17EDEAA7B7C /* Pods-TikSave */ = {
+			isa = PBXGroup;
+			children = (
+				84FB1AE74EA7E291F55B56413960B2C9 /* Pods-TikSave.modulemap */,
+				F43CC0090DCB0DA66C9F34EFDB45435E /* Pods-TikSave-acknowledgements.markdown */,
+				F0B1F940976B546A9CDCF9F37896A45A /* Pods-TikSave-acknowledgements.plist */,
+				03D52AC87EC67058D72577491FF48750 /* Pods-TikSave-dummy.m */,
+				85E52D10230314856B83C10ECAD5FCEF /* Pods-TikSave-frameworks.sh */,
+				622F3ED001DA0F1CE87C5EACC715DB22 /* Pods-TikSave-Info.plist */,
+				965A9073BC320363A0A90A0A11376034 /* Pods-TikSave-umbrella.h */,
+				5955094F5C9AD3C7466B68F86F9B05B4 /* Pods-TikSave.debug.xcconfig */,
+				A4B5191C9CCA342EE64022FFAF82A432 /* Pods-TikSave.release.xcconfig */,
+			);
+			name = "Pods-TikSave";
+			path = "Target Support Files/Pods-TikSave";
+			sourceTree = "<group>";
+		};
+		4FB7A8144D798CCD1BAF8718007BE412 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6956C165935B6C4170E6C84FC59DA48C /* SwiftAudioPlayer.modulemap */,
+				3B55F6B9D4757DF1B085F73AE7243022 /* SwiftAudioPlayer-dummy.m */,
+				8519BE8D3F8F1559AF1E643DF17FAAFD /* SwiftAudioPlayer-Info.plist */,
+				3E1183ECC4E6EFAE42020073E3CF252D /* SwiftAudioPlayer-prefix.pch */,
+				3055943E12374FA22EC2DB5782F295D8 /* SwiftAudioPlayer-umbrella.h */,
+				9A022B248340808B077E22DD04ACD970 /* SwiftAudioPlayer.debug.xcconfig */,
+				36C3B69C1605C5A55AA7ABE7C3C0E2C4 /* SwiftAudioPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftAudioPlayer";
+			sourceTree = "<group>";
+		};
+		6A550DA5F5F798AEEA9BFC2CE20308A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39516BC60512F2444094296261320D6B /* FSCalendar.modulemap */,
+				7BA3591F42C4C15383D51F1143454257 /* FSCalendar-dummy.m */,
+				B4C6E1AC14AB47487175A050BFB8195A /* FSCalendar-Info.plist */,
+				FCEEA4B5AFED8A189A138078A9CDC667 /* FSCalendar-prefix.pch */,
+				7000E67AFADF306BB152FEBC6D1B650A /* FSCalendar-umbrella.h */,
+				7671E3F1E477A9ED436DF144EB813F25 /* FSCalendar.debug.xcconfig */,
+				E572A48DB6EA3B38A2CB2DA16C10F5E1 /* FSCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		7AF8C88399F828B8E48FEA8A2F69D7B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F104BECAC9A5F711C5B17EDEAA7B7C /* Pods-TikSave */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F1D2FF57F823C6FAC5F7899BB0E8238 /* SwiftAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				595931AEF08ABFD34A9273F885F89D4B /* AudioClockDirector.swift */,
+				18E7C51A2E1D6B77B6F7432099C0D1B3 /* AudioConverter.swift */,
+				F22F7DBF93AC7B46F8B488CCBEBE0533 /* AudioConverterErrors.swift */,
+				2F32ECC5F799521FA88CA45A5B16449E /* AudioConverterListener.swift */,
+				39E0BCF21A3AEDFF92D3FB5CBD6DC1BD /* AudioDataManager.swift */,
+				1788FBCCA712EBEEC575677C9FE10DF5 /* AudioDiskEngine.swift */,
+				F41916930D84A98E3417FEFC40324369 /* AudioDownloadWorker.swift */,
+				E36B409F3F3040A6676C86C6604BDFD1 /* AudioEngine.swift */,
+				43E8C40E900A5CBF14379BAA613B2C8E /* AudioParsable.swift */,
+				FD0BC6202396890D9C210D0F74EA5683 /* AudioParser.swift */,
+				C1855B2240C60D475838081D1BD8F845 /* AudioParserErrors.swift */,
+				66ADB38E9F70BBC934BA32D112089614 /* AudioParserPacketListener.swift */,
+				93C1C4B40AAAD2552C17D9DEA29A8C4E /* AudioParserPropertyListener.swift */,
+				B7234C415EFBA492ED9EF1701A258E07 /* AudioQueue.swift */,
+				137036B110882F7DFD7CFEA891C01FBF /* AudioQueueDirector.swift */,
+				3E965522E260C90B0C38B574C1C7B647 /* AudioStreamEngine.swift */,
+				2E9CB603BA5A87097A55B864AF3B9A43 /* AudioStreamWorker.swift */,
+				285EF3E00A4B86B7DBD944422B5E0272 /* AudioThrottler.swift */,
+				917A9826C06134911508B90A364F7E5E /* Constants.swift */,
+				684C8C9F0F6CE0125FB9142692901832 /* Data.swift */,
+				38FFAAD59851BD8226690E4802BDF2C1 /* Date.swift */,
+				4422E3C39967CBC74E54DAE803F8C5C9 /* DirectorThreadSafeClosures.swift */,
+				BE245178285C16A29DC718FD900D458E /* DirectorThreadSafeClosuresDeprecated.swift */,
+				72CAF313099983BF3B592A2ECB92BD7A /* DownloadProgressDirector.swift */,
+				297360EF38C4992E6EE45D241AC6EE6D /* FileStorage.swift */,
+				9A0585E67E30F1F5DDC5B8D5AB88659E /* LockScreenViewProtocol.swift */,
+				7060F5FF7CBE92625142B3718149869C /* Log.swift */,
+				42F00744B56F9896FF0A8BC2E8273FEE /* SAAudioAvailabilityRange.swift */,
+				2A95A274864478DE8B5A8A748C323D21 /* SAPlayer.swift */,
+				60B340B68022BB89867B85F484C9F67E /* SAPlayerDelegate.swift */,
+				0726EC4FCC68C406201F127F19F1742F /* SAPlayerDownloader.swift */,
+				66C2C2C426F604544F8BBFE85D84B13D /* SAPlayerFeatures.swift */,
+				C96A125403E93E6E2DC7D874C1DACF06 /* SAPlayerHelpers.swift */,
+				154E48071D64BAC1D80230093930EF77 /* SAPlayerPresenter.swift */,
+				AFBF492B82DE15B6F19C83DD9C7A3071 /* SAPlayerUpdateSubscription.swift */,
+				50D4E6527BF822CC3983AFA66B0DDCDF /* SAPlayingStatus.swift */,
+				3D57024D3279B02D2C68A3F76DAD75A8 /* StreamingDownloadDirector.swift */,
+				EB514A663C61326B42CADCC8770B04F9 /* StreamProgressDTO.swift */,
+				CF0D7C7D1B36A409D95C218D98999CCB /* StreamProgressPTO.swift */,
+				1E76C730E83AB237319747E343509F55 /* URL.swift */,
+				4FB7A8144D798CCD1BAF8718007BE412 /* Support Files */,
+			);
+			name = SwiftAudioPlayer;
+			path = SwiftAudioPlayer;
+			sourceTree = "<group>";
+		};
+		96CFC667313BDD6191A60534E3DFA946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A82AF5D52BC61B45D5AD163C5C5C6947 /* FSCalendar */,
+				E60B7519CA7838FC13E91701CA1CD289 /* KeychainSwift */,
+				8F1D2FF57F823C6FAC5F7899BB0E8238 /* SwiftAudioPlayer */,
+				1D911904F72BDB331F1232BC1F546244 /* TTGTagCollectionView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A82AF5D52BC61B45D5AD163C5C5C6947 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				DF68CF5B81FBA33F0366CDEBDD109D86 /* FSCalendar.h */,
+				CEFCC3341DC3F8E14958367D8C827948 /* FSCalendar.m */,
+				1D410C69BCDD4618303865894A487BF9 /* FSCalendarAppearance.h */,
+				6FEE9D739C9A60525D654093459AFC70 /* FSCalendarAppearance.m */,
+				CD06AA9A592C7F562288F111DF60BAED /* FSCalendarCalculator.h */,
+				E8018D8E90AAF7E014B5612A98925930 /* FSCalendarCalculator.m */,
+				6D3EFCF97FA44A4DA77290003CD1128A /* FSCalendarCell.h */,
+				F5D0A1DD9EF750684371F1D3B4F3D58B /* FSCalendarCell.m */,
+				8DE3F80DF76E78D98211B2EBFD01B728 /* FSCalendarCollectionView.h */,
+				A8655988433E64EDE6208A99805A51BB /* FSCalendarCollectionView.m */,
+				397E793196468B499D72B4DFA2CFC211 /* FSCalendarCollectionViewLayout.h */,
+				CC70F5A1DD26DECFD676A25BD04BD2AE /* FSCalendarCollectionViewLayout.m */,
+				C5AD7D72EB322C464671FE7B70E73E2D /* FSCalendarConstants.h */,
+				DF9DBEB866AABD53E5303A869CDEC673 /* FSCalendarConstants.m */,
+				D8DAF3B313E630F34E45CBA252FFC19C /* FSCalendarDelegationFactory.h */,
+				DC569003A3B8DFC99AB759245D063480 /* FSCalendarDelegationFactory.m */,
+				9B3A6B0CEDE90E5511B4526C1062A090 /* FSCalendarDelegationProxy.h */,
+				8AAD2EC122E9D5F8490F227604970F68 /* FSCalendarDelegationProxy.m */,
+				4A68F90778B4B7C6602DB5410F8F1DAA /* FSCalendarDynamicHeader.h */,
+				F864E96169BF78758C4523B7DE88542D /* FSCalendarExtensions.h */,
+				DC3074BD9D4D491250405FE5F191ADEC /* FSCalendarExtensions.m */,
+				504BE9AC748AD2307D49486192894FAC /* FSCalendarHeaderView.h */,
+				E538B4B9B6E1287B2CDE5D174776756D /* FSCalendarHeaderView.m */,
+				2BE48F244558FEF0C3BA12746DE2AA8A /* FSCalendarSeparatorDecorationView.h */,
+				D262862CF35DA6C38170FF7154A201E2 /* FSCalendarSeparatorDecorationView.m */,
+				C6A03F87F4DFD67AD5EB565DFAE8AEAA /* FSCalendarStickyHeader.h */,
+				9F4369616B89227D34A92DD6194F7ED9 /* FSCalendarStickyHeader.m */,
+				B992DAD32E2749BE52806009E5573C24 /* FSCalendarTransitionCoordinator.h */,
+				C2DA4C4F846F7137DD746C5B44FB113D /* FSCalendarTransitionCoordinator.m */,
+				BBEC3BEE91BC4A28C7176A3B10583E39 /* FSCalendarWeekdayView.h */,
+				8C3DDE84BCC8C831927D5BA7440FBA08 /* FSCalendarWeekdayView.m */,
+				6A550DA5F5F798AEEA9BFC2CE20308A9 /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				96CFC667313BDD6191A60534E3DFA946 /* Pods */,
+				FBEE52B4C992BA88BC38EF4A087869BB /* Products */,
+				7AF8C88399F828B8E48FEA8A2F69D7B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A6A60AC0078E376B7EADD942ACB5A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28CC35FB227165A5E44F927A331EFF19 /* KeychainSwift.modulemap */,
+				122F3022F6BFFB6868CFC7F19C11F24E /* KeychainSwift-dummy.m */,
+				960180A82A4EABA5C23C0D11BC331F22 /* KeychainSwift-Info.plist */,
+				C590B8AAC2A6D1D85A8B532D6E355DE7 /* KeychainSwift-prefix.pch */,
+				4B69EA20536AE57B5A8866183E78345D /* KeychainSwift-umbrella.h */,
+				6F51CFADD8308443769D83DBB22D7B3B /* KeychainSwift.debug.xcconfig */,
+				A1C2317D265082A8A0BC2359B6DA6616 /* KeychainSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		E60B7519CA7838FC13E91701CA1CD289 /* KeychainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				36B6335410B84488B2C95C49FCE10E45 /* KeychainSwift.swift */,
+				A0658801C83D8AE125ED36D438D2FCBD /* KeychainSwiftAccessOptions.swift */,
+				D2CB3A4980E35E2662AE458E7FFA7E1C /* TegKeychainConstants.swift */,
+				D9A6A60AC0078E376B7EADD942ACB5A2 /* Support Files */,
+			);
+			name = KeychainSwift;
+			path = KeychainSwift;
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FBEE52B4C992BA88BC38EF4A087869BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95209B8BB966524BC76543F99C75F5FE /* FSCalendar */,
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */,
+				FE9D2A56C3C36C319634EB5A38D192CF /* Pods-TikSave */,
+				E1F0C4F7A8164EAA0AA2FAAFB3EE7D39 /* SwiftAudioPlayer */,
+				36C6F0DD9B00CD62109C2D53724C22F7 /* TTGTagCollectionView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C1997AA99702726DBE01165A2533D21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C2A6A45F0423B4B5A8733FBB9093F1 /* SwiftAudioPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1380B9994192F420D8BC0308CC7B1B0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EC024F54023B0D698A37C47122C953 /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E07F174355937DB528F0555C82738B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29F6543BF0300555DF4E0D85E37CF8E /* Pods-TikSave-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C23DC1D8354ECB5ABB8665FC85C91A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6F5C355E3A24A61494C6B6652C4C9E /* TTGTagCollectionView.h in Headers */,
+				EB51A41587E6BD487011DB89B1EEE877 /* TTGTagCollectionView-Bridging-Header.h in Headers */,
+				146E9FA66D8A55CCD9E7A89DB40FADD6 /* TTGTagCollectionView-umbrella.h in Headers */,
+				ADE42A4126B82494B773E1EF309781A8 /* TTGTextTag.h in Headers */,
+				BB7688BEC17FF0772F12E0C211FE9293 /* TTGTextTagAttributedStringContent.h in Headers */,
+				503140F95A90B833EB88EE59E1CF51B8 /* TTGTextTagCollectionView.h in Headers */,
+				8CB779F93023DDE9B418AEA62541D3FA /* TTGTextTagContent.h in Headers */,
+				5B6944E076027C33A08ED451345457DE /* TTGTextTagStringContent.h in Headers */,
+				1FC9E4050EB7749949E19A0678CA0A87 /* TTGTextTagStyle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9900830C8DCDB380DFE67D911EBA65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A550F7F30921E5FFE67A755D67DA7683 /* FSCalendar.h in Headers */,
+				1FF421C714EDBE044E5EEB1E0C6A8571 /* FSCalendar-umbrella.h in Headers */,
+				BC0B2FA367074EAF985420BE965303D3 /* FSCalendarAppearance.h in Headers */,
+				62FFC4B2AA010A5445E5D9D6294C62B6 /* FSCalendarCalculator.h in Headers */,
+				003475471715C79534A569A1DE745889 /* FSCalendarCell.h in Headers */,
+				6DCF6F2A00DA4D32535EB01AE34F3563 /* FSCalendarCollectionView.h in Headers */,
+				4643DA364A3E80706B89D53043890B4D /* FSCalendarCollectionViewLayout.h in Headers */,
+				752DBFCDD74504EEA558FCD691F6D548 /* FSCalendarConstants.h in Headers */,
+				C17CF6C18DAC9307799F1D7972965EDF /* FSCalendarDelegationFactory.h in Headers */,
+				39F986157716D5214013E395BDFA237A /* FSCalendarDelegationProxy.h in Headers */,
+				4EC9E26EE87569C1B51B6DFF20700772 /* FSCalendarDynamicHeader.h in Headers */,
+				5F847123FA3D224722CE24317DCEF968 /* FSCalendarExtensions.h in Headers */,
+				0CCBB4361672C8994784F0CD9AFC876D /* FSCalendarHeaderView.h in Headers */,
+				1152D5AAA7732A77B80CF0E33A68351C /* FSCalendarSeparatorDecorationView.h in Headers */,
+				BC1A04CE0A9851F3C003ECD156BE95AC /* FSCalendarStickyHeader.h in Headers */,
+				74340052A3CD15A02A87D8D651CB8AB8 /* FSCalendarTransitionCoordinator.h in Headers */,
+				517DF7507FDB12DBF9BA9D1536EDCC4F /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997BF8AEF73E04BE3F0E828FF63C51E6 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
+			buildPhases = (
+				1380B9994192F420D8BC0308CC7B1B0D /* Headers */,
+				27429ECFAA0B46393CF2868590187F44 /* Sources */,
+				8F5E1096151C1DC75B67489352719863 /* Frameworks */,
+				417F0B4D46DB5C4EC5381D3770D462EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSwift;
+			productName = KeychainSwift;
+			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0A80925871C91B9D807A479DC9E1C8 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				FF9900830C8DCDB380DFE67D911EBA65 /* Headers */,
+				0850BAB6F37BE1286C748B584A006CC9 /* Sources */,
+				8243A64755C7A548C64DC56F66C1347B /* Frameworks */,
+				6FDC92F7E5D72E9561F44586F35A4DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC2F5C51B63BC56F4EE2CFF9610237A1 /* Pods-TikSave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897BE66C04A91F9573C09837B322CC2E /* Build configuration list for PBXNativeTarget "Pods-TikSave" */;
+			buildPhases = (
+				94E07F174355937DB528F0555C82738B /* Headers */,
+				5B0CFAAF2B7BD17A0BF9BC0AC33FCEDD /* Sources */,
+				D4EB24AFD8D14A951275B258AD5CD983 /* Frameworks */,
+				F72C92532C9AE85D5E92E80CC09FC521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348EA9D7D7E89E80548EE70E208114AC /* PBXTargetDependency */,
+				2189E987C160F8A34A1D3FCFFEDB5F28 /* PBXTargetDependency */,
+				9BD11A43357B93534ABA0E88A6A358B0 /* PBXTargetDependency */,
+				C083A55EA66ED7C3F3A4F7E5254DEAB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-TikSave";
+			productName = Pods_TikSave;
+			productReference = FE9D2A56C3C36C319634EB5A38D192CF /* Pods-TikSave */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4949B35B65C78C4D7DCBEEA66EC61D4 /* TTGTagCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02EFB3BE04BFE1134209F4719E0ED0C /* Build configuration list for PBXNativeTarget "TTGTagCollectionView" */;
+			buildPhases = (
+				B5C23DC1D8354ECB5ABB8665FC85C91A /* Headers */,
+				86DA8F7D8CC97F095FE57CF06A091CEF /* Sources */,
+				D8EB5E493DDF947D3AB9F290A7BAF23D /* Frameworks */,
+				69BC7F1C7F48C04C2C2649C73E90D67B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTGTagCollectionView;
+			productName = TTGTags;
+			productReference = 36C6F0DD9B00CD62109C2D53724C22F7 /* TTGTagCollectionView */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBFDAF801D749F87A32FC2773FFE7390 /* SwiftAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F6BFFF81F8AA967BDA1A637FC45858 /* Build configuration list for PBXNativeTarget "SwiftAudioPlayer" */;
+			buildPhases = (
+				0C1997AA99702726DBE01165A2533D21 /* Headers */,
+				A66B00C54D230FC3EA3BD74E4FC03917 /* Sources */,
+				6DF9EFD42B13196AB8F9F7AE1E627F8C /* Frameworks */,
+				C13C98C9319473A21B97962709A06F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAudioPlayer;
+			productName = SwiftAudioPlayer;
+			productReference = E1F0C4F7A8164EAA0AA2FAAFB3EE7D39 /* SwiftAudioPlayer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FBEE52B4C992BA88BC38EF4A087869BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */,
+				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
+				BC2F5C51B63BC56F4EE2CFF9610237A1 /* Pods-TikSave */,
+				FBFDAF801D749F87A32FC2773FFE7390 /* SwiftAudioPlayer */,
+				F4949B35B65C78C4D7DCBEEA66EC61D4 /* TTGTagCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417F0B4D46DB5C4EC5381D3770D462EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BC7F1C7F48C04C2C2649C73E90D67B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDC92F7E5D72E9561F44586F35A4DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13C98C9319473A21B97962709A06F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72C92532C9AE85D5E92E80CC09FC521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0850BAB6F37BE1286C748B584A006CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C20C67D0D5A1C73A0A057268A719C1 /* FSCalendar.m in Sources */,
+				3E4E56584545A9F057D6A39565EEBE81 /* FSCalendar-dummy.m in Sources */,
+				F3F18A1FEC8212A61301637E40558A13 /* FSCalendarAppearance.m in Sources */,
+				F1B9720240D5609A1DE32B8350FE0B5B /* FSCalendarCalculator.m in Sources */,
+				E11220C77D9BB217D63867401FF624F6 /* FSCalendarCell.m in Sources */,
+				7E98902CA894CFE1F54E7934B24B0B37 /* FSCalendarCollectionView.m in Sources */,
+				CE132491B81D44BB6B692C3F72FBC980 /* FSCalendarCollectionViewLayout.m in Sources */,
+				8D5833379E9F51BFEEA066AA1C4A25A0 /* FSCalendarConstants.m in Sources */,
+				CF10A50704D5CF6F07D5949BA4AB3EAB /* FSCalendarDelegationFactory.m in Sources */,
+				E53DD07DFCDD2241779DBAAE71E77032 /* FSCalendarDelegationProxy.m in Sources */,
+				C7ACD835AAE2936FB6B623084612825D /* FSCalendarExtensions.m in Sources */,
+				7FDEAD728DF7397DAEE4237F07AD5A70 /* FSCalendarHeaderView.m in Sources */,
+				6040741383F6F8F6979D6C547230C132 /* FSCalendarSeparatorDecorationView.m in Sources */,
+				24E5EE988A4BD7C15B55708C6D88AE04 /* FSCalendarStickyHeader.m in Sources */,
+				6201BB85A0AAF8FA6C4771308917BAB2 /* FSCalendarTransitionCoordinator.m in Sources */,
+				3960120DF8907DA574823ACE7ED96076 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27429ECFAA0B46393CF2868590187F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBFBBC52B77AEDD220B219AFA55B4F6 /* KeychainSwift.swift in Sources */,
+				B39BF720A3E471DC10CDC6CC3986D2A9 /* KeychainSwift-dummy.m in Sources */,
+				FAA9422DBF165F89AA81D94DB2DBF457 /* KeychainSwiftAccessOptions.swift in Sources */,
+				6C133193471A0A93B4CE45491148072A /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0CFAAF2B7BD17A0BF9BC0AC33FCEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDC4895672B4E8AC3747C591051208A /* Pods-TikSave-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DA8F7D8CC97F095FE57CF06A091CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AF39DD3144702AF34A3FE2B7B5D6E0 /* TTGTagCollectionView.m in Sources */,
+				408FCE218B25F440E10D4A7EB4A3EDE2 /* TTGTagCollectionView-dummy.m in Sources */,
+				CC7105F41ED9698A54F6302038BF7B71 /* TTGTextTag.m in Sources */,
+				10A2175FFC32FB68FF3E71BAADA765E5 /* TTGTextTagAttributedStringContent.m in Sources */,
+				DBC27A3BA5551A00C3BB06E0CC9AF642 /* TTGTextTagCollectionView.m in Sources */,
+				EBBDD6E6A128CD769399E1F128934020 /* TTGTextTagContent.m in Sources */,
+				4AC654FE7310099512B0BC69400041D9 /* TTGTextTagStringContent.m in Sources */,
+				2C6B934D837785259E680FD93F5C5741 /* TTGTextTagStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66B00C54D230FC3EA3BD74E4FC03917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB08298B314FA7D99E5E9C78597B2ECC /* AudioClockDirector.swift in Sources */,
+				0970AEF5F44524597BFE7319F3899841 /* AudioConverter.swift in Sources */,
+				AF353D74401306464BF92055A2C3442C /* AudioConverterErrors.swift in Sources */,
+				C018775B8C99FE0D182C864F61C6DFEE /* AudioConverterListener.swift in Sources */,
+				65D06025EE2F0A07B71F3B312CC0B944 /* AudioDataManager.swift in Sources */,
+				B76BDCEB38EB565ADCE662AEB0BD352D /* AudioDiskEngine.swift in Sources */,
+				1B6EC59802D31BE0B70A3B2EDC7555AC /* AudioDownloadWorker.swift in Sources */,
+				E3E65393417F64ED73B1292878190FB9 /* AudioEngine.swift in Sources */,
+				F7C2667C42DACD40996B939C843C17ED /* AudioParsable.swift in Sources */,
+				C476AE489AC032C4E6BCE082C1FC12DB /* AudioParser.swift in Sources */,
+				98ED989444E9F6E4AE75A5C62211456A /* AudioParserErrors.swift in Sources */,
+				1D72E03DF79E36E3B1D570ECBB9CEF11 /* AudioParserPacketListener.swift in Sources */,
+				E8C1ABBC5891DB3A42B97C64BC18A9D5 /* AudioParserPropertyListener.swift in Sources */,
+				0FE86E6F6A51BD4E6D4A7E903545E1E3 /* AudioQueue.swift in Sources */,
+				571280A1BCEBAF880C229B684D65312E /* AudioQueueDirector.swift in Sources */,
+				198A9C6930D89FF5206D86E2D3AFABCC /* AudioStreamEngine.swift in Sources */,
+				0BACCD30BE71D046440ADA1E8953F450 /* AudioStreamWorker.swift in Sources */,
+				3C4312279116CB39740057FB7B12AF4B /* AudioThrottler.swift in Sources */,
+				83F4A638D27A828C4B802778EC4BE98A /* Constants.swift in Sources */,
+				2C9CDDE18FCA46F9351451521995D65A /* Data.swift in Sources */,
+				0C27045051E4170B9F156D049695A896 /* Date.swift in Sources */,
+				5E16A536FA91AC6319D2F23E98178220 /* DirectorThreadSafeClosures.swift in Sources */,
+				81B0E4B5CA68235A37D86398E2BCEC5A /* DirectorThreadSafeClosuresDeprecated.swift in Sources */,
+				F59134582A0828C0A9E5CA82C9A67986 /* DownloadProgressDirector.swift in Sources */,
+				A9493963E319CD5751CE91E57F507589 /* FileStorage.swift in Sources */,
+				EB69E4E47F4A81792C62A82D9AD64A5D /* LockScreenViewProtocol.swift in Sources */,
+				65C3A0A52B40B8E9D3BFCD964EDE508D /* Log.swift in Sources */,
+				DC0C12012E9D26046DA7E853863490C9 /* SAAudioAvailabilityRange.swift in Sources */,
+				53D59E373510F1E69721BBEEE6D2B956 /* SAPlayer.swift in Sources */,
+				C998FCBDD3585504440701A3A99A6D27 /* SAPlayerDelegate.swift in Sources */,
+				4504586409FFAF9C636C80A571FF7B9F /* SAPlayerDownloader.swift in Sources */,
+				57E5E46E0769D3B27E347FA9608022C0 /* SAPlayerFeatures.swift in Sources */,
+				B4DD2EDAED8F75345383006E53F0CBE2 /* SAPlayerHelpers.swift in Sources */,
+				7EA2854B68A7616A73A3AAAAC0390B35 /* SAPlayerPresenter.swift in Sources */,
+				081832C26D5BA5B22489AF1D07094CD9 /* SAPlayerUpdateSubscription.swift in Sources */,
+				A046CD512717525C845E4EFF78F75E8F /* SAPlayingStatus.swift in Sources */,
+				44D7B86E15D251E8C60B0ECFC83D7305 /* StreamingDownloadDirector.swift in Sources */,
+				AC360861C34C20A0E530DD64D71C1A6C /* StreamProgressDTO.swift in Sources */,
+				7EBAD84DB74B626670BC0D413D5654DA /* StreamProgressPTO.swift in Sources */,
+				0050207DE1AD9E807C300821AAF90F2F /* SwiftAudioPlayer-dummy.m in Sources */,
+				62A909D8DCA0C7CDF80F209E70AF646F /* URL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2189E987C160F8A34A1D3FCFFEDB5F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = 4B5D2289ED0DAF51CECC664E685E10CE /* PBXContainerItemProxy */;
+		};
+		348EA9D7D7E89E80548EE70E208114AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */;
+			targetProxy = 43B0956AC331D1AB1686E41AFBE93328 /* PBXContainerItemProxy */;
+		};
+		9BD11A43357B93534ABA0E88A6A358B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftAudioPlayer;
+			target = FBFDAF801D749F87A32FC2773FFE7390 /* SwiftAudioPlayer */;
+			targetProxy = 14098029ED43C4C4D8237FC65B571529 /* PBXContainerItemProxy */;
+		};
+		C083A55EA66ED7C3F3A4F7E5254DEAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTGTagCollectionView;
+			target = F4949B35B65C78C4D7DCBEEA66EC61D4 /* TTGTagCollectionView */;
+			targetProxy = D0E150274CFB978119FF75EBEE3559F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BF49F226C65D13A7D3825314017BFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B5191C9CCA342EE64022FFAF82A432 /* Pods-TikSave.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TikSave/Pods-TikSave-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TikSave/Pods-TikSave.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CC1A22D08B294E9736A1227367AD925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD1488798B4100855FC3D037F1BBE47 /* TTGTagCollectionView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = TTGTags;
+				PRODUCT_NAME = TTGTags;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22BF592312F1B43BDC6A713BF2BB693D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C3B69C1605C5A55AA7ABE7C3C0E2C4 /* SwiftAudioPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAudioPlayer;
+				PRODUCT_NAME = SwiftAudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717BF11508A479CC048B39007DBFA655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C2317D265082A8A0BC2359B6DA6616 /* KeychainSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73FBC83DA060410357FD0C30D352B208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7671E3F1E477A9ED436DF144EB813F25 /* FSCalendar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		980F429D8185500A62B9C6822763B11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252015D64186E3640EC052F4A922A149 /* TTGTagCollectionView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TTGTagCollectionView/TTGTagCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = TTGTags;
+				PRODUCT_NAME = TTGTags;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A160472351B46C565056074E8EAAC9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E572A48DB6EA3B38A2CB2DA16C10F5E1 /* FSCalendar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A98AF4534E837E4DEEE0D7E63CC5AA24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A022B248340808B077E22DD04ACD970 /* SwiftAudioPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftAudioPlayer/SwiftAudioPlayer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftAudioPlayer;
+				PRODUCT_NAME = SwiftAudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C75BD878AB9D31042A401048A9E5750D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5955094F5C9AD3C7466B68F86F9B05B4 /* Pods-TikSave.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TikSave/Pods-TikSave-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TikSave/Pods-TikSave.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2F78367C06F341A16DEF595FE4BB14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F51CFADD8308443769D83DBB22D7B3B /* KeychainSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12F6BFFF81F8AA967BDA1A637FC45858 /* Build configuration list for PBXNativeTarget "SwiftAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98AF4534E837E4DEEE0D7E63CC5AA24 /* Debug */,
+				22BF592312F1B43BDC6A713BF2BB693D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0A80925871C91B9D807A479DC9E1C8 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FBC83DA060410357FD0C30D352B208 /* Debug */,
+				A160472351B46C565056074E8EAAC9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897BE66C04A91F9573C09837B322CC2E /* Build configuration list for PBXNativeTarget "Pods-TikSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75BD878AB9D31042A401048A9E5750D /* Debug */,
+				0BF49F226C65D13A7D3825314017BFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997BF8AEF73E04BE3F0E828FF63C51E6 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F78367C06F341A16DEF595FE4BB14C /* Debug */,
+				717BF11508A479CC048B39007DBFA655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02EFB3BE04BFE1134209F4719E0ED0C /* Build configuration list for PBXNativeTarget "TTGTagCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC1A22D08B294E9736A1227367AD925 /* Debug */,
+				980F429D8185500A62B9C6822763B11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
